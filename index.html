@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Quiz</title>
+<!--Styling Sheet-->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div>
+<!---High score and time-->
+        <div>
+            <div>
+                <h5>View HighScore</h5>
+            </div>
+            <div>
+                <h5 id="time">Time: 0 </h5>
+            </div>
+
+        </div>
+
+        <br><br>
+<!--for questions-->
+        <div class="main">
+            <div>
+                <div>
+                    <h2>Java script Quiz</h2>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Answer the foloowing questions</p>
+
+                    <button id="start" class="btn">Start Quiz</button>
+                </div>
+            </div>
+    </div>
+
+<!---This is begening of the  div that will contain all the questions  -->
+        <div class="Container">
+
+<!---This is begening of the first div that will display each questions -->
+
+            <h3 id="title">
+
+            </h3>
+            <ol id="list">
+            </ol>
+
+        </div>
+            <br>
+            <div id="response"> </div>
+
+            <div class="finish">
+
+            <p id="result"> </p>
+            <p id="error"></p>
+
+            <form>
+                <div">
+                    <h5>Initials </h5>
+                </div>
+                <div>
+                    <!--for information-->
+                    <input type="text" id="input" placeholder="Enter your initials"> </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+
+        <div class="final">
+            <h2>HighScores</h2>
+
+            <div>
+                <input type="text" readonly id="end" value="1.">
+
+            </div>
+            <button class="myBtn" onclick="init()">Go Back</button>
+            <button class="myBtn" onclick="clearScore()">Clear</button>
+
+
+        </div>
+
+
+    <script src="assets/Script.js"></script>
+      
+</body>
+
+</html>
