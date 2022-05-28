@@ -16,7 +16,7 @@ installation
 -Download and install Git bash
 -Open your Git bash application
 -Type in command mkdir Java script web quiz
--By using cd command go into Password generator
+-By using cd command go into Java script web quiz
 -Enter git clone https://github.com/sachmilan/Java-Script-Quiz.git
 
 ## Credits
